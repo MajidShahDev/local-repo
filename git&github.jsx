@@ -13,12 +13,6 @@
 
 // commit message, means reason of making change, giving a name to our screeshot
 
-// Git
-// clear    ... for clearing window
-// ls       ... list files in directory
-// pwd      ... for working directory
-// ~  tild is showing that we are in our root directory mean main directory or folder
-
 
 // CONFIGURING GIT > mean hm git ko bta rhy hn k hm kon c account mn changes krny
 //                   ja rghy hn, mtlb agr hm git c github pr change kr rhy hn to
@@ -70,6 +64,10 @@
 // Local  > means files and folder in our laptop or machine.
 //---------------------------------------------------------------------
 
+// Git
+// clear    ... for clearing window
+// pwd      ... for working directory
+// ~  tild is showing that we are in our root directory mean main directory or folder
 // cd           for changing directory
 // cd..         for one step back in directory
 // cd + tab     for auto completion
