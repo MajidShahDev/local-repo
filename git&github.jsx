@@ -130,6 +130,8 @@
 
 //---------------------------------------------------------------------
 // UNDO CHANGES
+// Remove-Item -Recurse -Force .git (remove the .git directory from powershell)
+//                                  (stopping Git from tracking the project.)
 // git log     (for checking git log)
 // q           (for quitting from log)
 
