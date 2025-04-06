@@ -20,7 +20,7 @@
 // gh pr merge <pr-number>                  # Merge a pull request
 
 // # Issues
-// gh issue create                          # Create a new issue
+// gh issue create                          # Create a new issueReset Window Layout
 // gh issue list                            # List all issues
 // gh issue view <issue-number>             # View details of a specific issue
 // gh issue close <issue-number>            # Close an issue

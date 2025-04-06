@@ -1,3 +1,14 @@
+// GIT ABBREVIATION Meaning
+
+// U --- Untracked file      --- Green Color
+// A --- U file added/staged --- Green Color
+
+// M --- Modified file       --- Red Color    --- 1 = 1 Change  --- code is written
+// M --- Modified file       --- Yellow Color --- Comment is written / code in file is deleted
+// 1 --- Modified file       --- Red Color    --- Committed file that git is tracking not synced
+
+// ....................................................................................
+//       Cntrl + Shift + P   --- Reload Window --- To see the changes
 // Git > Git is version control system, that track the history of project
 //       that when a new file was added, changed and deleted from the project.
 
@@ -13,7 +24,6 @@
 
 // commit message, means reason of making change, giving a name to our screeshot
 
-
 // CONFIGURING GIT > mean hm git ko bta rhy hn k hm kon c account mn changes krny
 //                   ja rghy hn, mtlb agr hm git c github pr change kr rhy hn to
 //                   hm kon c email id c changes hn
@@ -27,9 +37,9 @@
 // CLONE & STATUS
 
 // CLONE > Cloning a repository in our local machine
-//         git clone https://github.com/MajidShahDev/demo-project.git
+//         >>> git clone https://github.com/MajidShahDev/demo-project.git
 // STATUS > Display the state of the code
-//          git status
+//         >>> git status
 //          Status have four type
 //              untracked  > new files that git does'nt yet tracked.
 //              modified   > changed
@@ -46,17 +56,17 @@
 // ADD >    Add new or changed files in our working directory to git staging
 //          area. add means engaging to stage.
 //          git add index.html (this will add only index.html file)
-//          git add . (this will add all files)
+//      >>> git add . (this will add all files)
 
 // COMMIT > It is the record of change
-//          git commit -m "some message"     // her -m is short for message
+//      >>> git commit -m "some message"     // her -m is short for message
 //                                           // message should be meaningful
 
 //          Your branch is ahead of 'origin/main' by 1 commit.
 //          mltb hm orignal github code c 1 commit agy ho gaey hn
 
 // PUSH   > upload local repo content to remote repo
-//          git push origin main
+//      >>> git push origin main
 //                yhn orign c murad ha jhan c hm ny clone lia tha
 //                yhn main c murad ha k main branch
 //---------------------------------------------------------------------
@@ -65,9 +75,9 @@
 //---------------------------------------------------------------------
 
 // Git
-// clear    ... for clearing window
-// pwd      ... for working directory
-// ~  tild is showing that we are in our root directory mean main directory or folder
+// ~            tild is showing that we are in our root directory mean main directory or folder
+// clear        for clearing window
+// pwd          for working directory
 // cd           for changing directory
 // cd..         for one step back in directory
 // cd + tab     for auto completion
@@ -147,9 +157,6 @@
 //      git reset <-commit hash->
 //      git reset 7584a2cefa5f26bd990a9adf6efea774a9c4337a
 //      git reset --hard <-commit hash->
-
-
-
 
 // if modified is red mean changes are made but not added
 // if modified is green mean changes are added(staged).
